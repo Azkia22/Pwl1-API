@@ -74,6 +74,7 @@ class BookController extends Controller
             ], 401);
         }
     }
+
     public function update(Request $request, $id)
     {
         try {
